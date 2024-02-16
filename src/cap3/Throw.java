@@ -2,8 +2,8 @@ public class Throw {
     float notasF(float[] notas) throws  IllegalArgumentException{
         float media = 0;
         for(int i= 0;i <notas.length;i++){
-            if(notasf[i]>10 || notafs[i]<0){
-                throw new IllegalArgumentException()
+            if(notas[i]>10 || notas[i]<0){
+                throw new IllegalArgumentException();
             }
             media+=notas[i];
         }
